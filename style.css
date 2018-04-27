@@ -1,0 +1,103 @@
+body {
+	background-color: #beb2b2;
+}
+
+body > div {
+	width: 500px;
+	height: 250px;
+	position: relative;
+	top: calc(50vh - 200px);
+	margin: 0 auto;
+}
+
+h2 {
+	color: #505050;
+	font-size: 40px;		
+}
+	
+social {
+	/*margin: 0 auto;*/
+	width: 500px;
+	text-align: center;
+	padding: 50px;
+}
+
+.icon-btn {
+	width: 75px;
+	height: 75px;
+	border: none;
+	background-color: white;
+	border-radius: 50%;
+	margin: 5px;
+	cursor: pointer;
+	font-size: 40px;
+}
+
+.fa-twitter {
+	color: #4099FF;	
+}
+
+.fa-facebook {
+	color: #3B5998;
+}
+
+.fa-google-plus {
+	color: #DB5A3C;
+}
+
+.fa-instagram {
+	color: #5C3D2E;
+}
+
+.fa-github {
+	color: #4183C4;
+}
+
+.icon-btn:hover {
+	transform: scale(1.1);
+}
+
+.twitter:hover {
+	background-color: #4099FF;	
+}
+
+button.twitter:hover .fa-twitter {
+	color: #fff;
+	background-color: #4099FF;	
+}
+
+.facebook:hover {
+	background-color: #3B5998;	
+}
+
+button.facebook:hover .fa-facebook {
+	color: #fff;
+	background-color: #3B5998;
+}
+
+.google-plus:hover {
+	background-color: #DB5A3C;	
+}
+
+button.google-plus:hover .fa-google-plus {
+	color: #FFF;
+	background-color: #DB5A3C;
+}
+
+.instagram:hover {
+	background-color: #5C3D2E;	
+}
+
+button.instagram:hover .fa-instagram {
+	color: #FFF;
+	background-color: #5C3D2E;
+}
+
+.github:hover {
+	background-color: #4183C4;
+}
+
+button.github:hover .fa-github {
+	color: #FFF;
+	background-color: #4183C4;
+}
